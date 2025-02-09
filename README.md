@@ -29,10 +29,10 @@ Before running the application, ensure you have the following installed:
 
 ### Step 1: Start Redis with Docker
 
-The application uses Redis as the database. You can start a Redis instance using Docker:
+The application uses Redis as the database. You can start a Redis instance using Docker Compose:
 
 ```bash
-docker run -d --name redis-container -p 6379:6379 redis
+docker-compose up
 ```
 
 This command will start a Redis container and expose it on port `6379`.
