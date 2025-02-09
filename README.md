@@ -157,12 +157,6 @@ Missing field: url
 
 ---
 
-## Bonus: Handling Hash Collisions
-
-To handle potential hash collisions (different URLs generating the same key), the application appends a unique value (e.g., a timestamp) to the input before hashing. If a collision is detected, the process is repeated until a unique key is generated.
-
----
-
 ## Technologies Used
 
 - **Spring Boot**: For building the REST API.
